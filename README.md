@@ -66,12 +66,22 @@ cd Concrete-Compressive-Strength
 pip install --upgrade scikit-learn
 ```
 
-### Install dependencies
+### Install Flask
 ```bash
-pip install -r requirements.txt
+pip install flask
+```
+
+### Install Joblib
+```bash
+pip install joblib
+```
+
+### Install Numpy
+```bash
+pip install numpy
 ```
 
 ### Run the project
 ```bash
-python main.py
+python app.py
 ```
