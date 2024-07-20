@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model 
-model = joblib.load('concrete/cement.pkl')
+model = joblib.load('Project Executable Files/concrete/cement.pkl')
 
 
 @app.route('/')
