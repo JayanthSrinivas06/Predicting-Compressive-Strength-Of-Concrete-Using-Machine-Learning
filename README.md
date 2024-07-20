@@ -1,7 +1,7 @@
 # Concrete Compressive Strength Prediction
 
 ## Team Members:
-#### Rakesh Yenumala
+#### Rakesh Yenumula
 #### Jayanth srinivas Bommisetty
 #### Sarvan dattu Perumalla
 #### Manvitha Sadineni
