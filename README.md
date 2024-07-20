@@ -55,7 +55,7 @@ This folder contains the executable files for the project.
 ## How to Run
 To run the project, follow these steps:
 
-###Install scikit-learn
+### Install scikit-learn
 ```bash
 pip install --upgrade scikit-learn
 ```
