@@ -1,10 +1,10 @@
 # Concrete Compressive Strength Prediction
 
 ## Team Members:
-### Rakesh Yenumala
-### Jayanth srinivas Bommisetty
-### Sarvan dattu Perumalla
-### Manvitha Sadineni
+#### Rakesh Yenumala
+#### Jayanth srinivas Bommisetty
+#### Sarvan dattu Perumalla
+#### Manvitha Sadineni
 
 ## Project Overview
 This project aims to predict the compressive strength of concrete using various machine learning models. The analysis is performed on a dataset that includes features such as the composition and age of the concrete. The goal is to identify the most effective model for predicting concrete strength.
@@ -57,5 +57,16 @@ To run the project, follow these steps:
 
 ### Clone the repository
 ```bash
-git clone https://github.com/muhammadadilnaeem/Concrete-Compressive-Strength.git
+git clone https://github.com/JayanthSrinivas06/Predicting-Compressive-Strength-Of-Concrete-Using-Machine-Learning.git
 cd Concrete-Compressive-Strength
+```
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run the project
+```bash
+python main.py
+```
