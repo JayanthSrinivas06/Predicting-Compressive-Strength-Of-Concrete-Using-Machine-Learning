@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Concrete Strength Prediction</title>
+    <link rel="icon" type="image/png" href="/static/Logo.png">
+    <style>
+        body {
+            background-image: url('/static/Buildings.jpg');
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        h1 {
+            margin: 0;
+            color: black;
+            font-size: 5em;
+            opacity: 0;
+            transform: translateY(100px);
+            animation: headline 1s forwards;
+        }
+        @keyframes headline {
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .heading-box {
+            background-color: #ffffff54;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+            transform: translateY(100%);
+            animation: slidein 2s forwards;
+            animation-delay: 1s;
+        }
+
+        @keyframes slidein {
+            100% {
+                transform: translateY(0);
+            }
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #000000;
+            color: #FFFFFF;
+            transition: 0.5s;
+            opacity: 0;
+            transform: translateY(100px);
+            animation: button 2s forwards;
+            animation-delay: 1s;
+        }
+        @keyframes button {
+            100% {
+                opacity: 1;
+                transform: translateY(100px);
+            }
+        }
+        .button:hover {
+            box-shadow: 0 0 50px #ffffff;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        .button:active {
+            background-color: #000000;
+            box-shadow: 0 0 20px #ffffff;
+        }
+        .glow {
+            animation: glow 1s infinite;
+        }
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 10px rgb(202, 202, 202);
+            }
+            50% {
+                box-shadow: 0 0 50px rgb(221, 221, 221);
+            }
+            100% {
+                box-shadow: 0 0 200px rgb(255, 255, 255);
+            }
+        }
+        .moveaway {
+            animation: moveaway 1s forwards;
+        }
+        @keyframes moveaway {
+            100% {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heading-box">
+        <h1>Concrete Strength Prediction</h1>
+    </div>
+    <button class="button" onclick="moveAway(); setTimeout(function(){ window.location.href='/Prediction'; }, 1000);">Predict</button>
+    <script>
+        function moveAway() {
+            document.querySelector('.heading-box').classList.add('moveaway');
+            document.querySelector('h1').classList.add('moveaway');
+            document.querySelector('.button').classList.add('moveaway');
+        }
+    </script>
+</body>
+</html>
