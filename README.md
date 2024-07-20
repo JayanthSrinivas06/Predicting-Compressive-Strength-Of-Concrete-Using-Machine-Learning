@@ -55,15 +55,15 @@ This folder contains the executable files for the project.
 ## How to Run
 To run the project, follow these steps:
 
-### Install scikit-learn
-```bash
-pip install --upgrade scikit-learn
-```
-
 ### Clone the repository
 ```bash
 git clone https://github.com/JayanthSrinivas06/Predicting-Compressive-Strength-Of-Concrete-Using-Machine-Learning.git
 cd Concrete-Compressive-Strength
+```
+
+### Install scikit-learn
+```bash
+pip install --upgrade scikit-learn
 ```
 
 ### Install dependencies
