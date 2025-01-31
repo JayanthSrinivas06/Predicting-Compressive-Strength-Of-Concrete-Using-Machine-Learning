@@ -16,8 +16,6 @@ This project aims to predict the compressive strength of concrete using various 
 - [Project Structure](#project-structure)
 - [Files](#files)
 - [How to Run](#how-to-run)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Structure
 This project is divided into four phases:
